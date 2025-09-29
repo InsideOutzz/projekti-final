@@ -1,12 +1,5 @@
 <?php
 session_start();
-
-// Connection
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$database = 'user_system';
-
 $conn = new mysqli($host, $user, $password, $database);
 
 if ($conn->connect_error) {
